@@ -82,7 +82,7 @@ func main() {
 
 	g := newGame()
 	reader := bufio.NewReader(os.Stdin)
-	log.Println(g.code)
+	// log.Println(g.code)
 	for g.running {
 		fmt.Print("Enter your guess: ")
 		input, err := reader.ReadString('\n')
